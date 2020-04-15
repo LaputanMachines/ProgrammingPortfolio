@@ -1,0 +1,38 @@
+div h3 {
+    font-size: 1.75em;
+    color: #444649;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+}
+
+div p,
+div ul {
+    font-weight: 400;
+    font-size: 1.1em;
+    text-align: justify;
+    line-height: 1.25em;
+    color: rgb(74, 74, 74);
+    font-family: 'Raleway', sans-serif;
+}
+
+div p a {
+    color: rgb(0, 154, 218);
+}
+
+#website-content {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+#website-content div {
+    border-bottom: 1px solid #444649;
+}
+
+#website-content div:first-of-type {
+    padding-top: 1em;
+}
+
+#website-content div:last-of-type {
+    padding-bottom: 1em;
+    border-bottom: none;
+}

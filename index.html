@@ -9,10 +9,12 @@
     <body>
         <!-- {% include navbar.html %} -->
         {% include welcome-message.html %}
-        {% include personal-summary.html %}
-        {% include professional-resume.html %}
-        {% include software-projects.html %}
-        {% include testimonials.html %}
-        {% include contact-me.html %}
+        <div id="website-content">
+            {% include personal-summary.html %}
+            {% include professional-resume.html %}
+            {% include software-projects.html %}
+            {% include testimonials.html %}
+            {% include contact-me.html %}
+        </div>
     </body>
 </html>
