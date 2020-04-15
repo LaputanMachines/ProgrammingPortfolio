@@ -43,3 +43,21 @@ div ul li a:hover, div ul li a:active {
     padding-bottom: 1em;
     border-bottom: none;
 }
+
+@media screen and (max-width: 500px) {
+    #website-content {
+        padding: 1em;
+    }
+
+    #website-content div:first-of-type {
+        padding-top: 0em;
+    }
+
+    #website-content div h3 {
+        margin-top: 0.5em;
+    }
+
+    #website-content div:last-of-type {
+        padding-bottom: 0em;
+    }
+}
