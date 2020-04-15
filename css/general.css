@@ -49,6 +49,13 @@ div ul li a:hover, div ul li a:active {
     padding-bottom: 1em;
 }
 
+@media screen and (max-width: 800px) {
+    #website-content > div {
+        margin-left: 1em;
+        margin-right: 2em;
+    }
+}
+
 @media screen and (max-width: 500px) {
     #website-content {
         padding: 1em;
