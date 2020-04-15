@@ -13,6 +13,8 @@ destination: _site
 highlighter: rouge
 linenos:     true
 
+employment_status: "Actively Seeking"
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap
