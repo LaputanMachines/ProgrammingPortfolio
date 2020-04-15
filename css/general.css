@@ -15,8 +15,15 @@ div ul {
     font-family: 'Raleway', sans-serif;
 }
 
-div p a {
+div p a,
+div ul li a {
+    text-decoration: none;
     color: rgb(0, 154, 218);
+}
+
+div p a:hover, div p a:active,
+div ul li a:hover, div ul li a:active {
+    text-decoration: underline;
 }
 
 #website-content {
