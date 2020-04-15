@@ -1,0 +1,12 @@
+#testimonials q {
+    font-weight: 400;
+    font-size: 1.1em;
+    text-align: justify;
+    line-height: 1.25em;
+    color: rgb(74, 74, 74);
+    font-family: 'Raleway', sans-serif;
+}
+
+#testimonials .testimonial-author {
+    text-indent: 2em;
+}
