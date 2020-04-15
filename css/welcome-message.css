@@ -64,9 +64,9 @@
 
 @media screen and (max-width: 500px) {
     #welcome-message {
-        box-shadow: 0px 3px 10px 0px rgba(37,41,52,0.75);
-        -moz-box-shadow: 0px 3px 10px 0px rgba(37,41,52,0.75);
-        -webkit-box-shadow: 0px 3px 10px 0px rgba(37,41,52,0.75);
+        box-shadow: 0px 3px 10px 0px rgba(37,41,52,0.5);
+        -moz-box-shadow: 0px 3px 10px 0px rgba(37,41,52,0.5);
+        -webkit-box-shadow: 0px 3px 10px 0px rgba(37,41,52,0.5);
     }
 
     #welcome-message h1 {
@@ -90,5 +90,9 @@
     #particles-js {
         display: none;
         visibility: hidden;
+    }
+
+    #welcome-message-container {
+        margin-bottom: 4em;
     }
 }
