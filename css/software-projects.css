@@ -1,0 +1,67 @@
+.project-image {
+    max-width: 300px;
+    border: 1px solid #e5e5e5;
+}
+
+.project-link:focus {
+    outline: 0;
+    border: none;
+}
+
+.project-image:hover, .project-image:active {
+    transition: 0.2s;
+    box-shadow: 0px 3px 10px 0px rgba(37,41,52,0.5);
+    -moz-box-shadow: 0px 3px 10px 0px rgba(37,41,52,0.5);
+    -webkit-box-shadow: 0px 3px 10px 0px rgba(37,41,52,0.5);
+}
+
+.project-info-container {
+    width: 100%;
+    position: relative;
+    /* Constrain width to remaining div, plus extra spacing. */
+    max-width: calc(500px - 1em);
+}
+
+.project-entry {
+    display: flex;
+    margin-top: 0.25em;
+    margin-bottom: 1.5em;
+    justify-content: space-between;
+}
+
+.project-entry:last-of-type {
+    margin-bottom: 0;
+}
+
+.project-title {
+    color: #444649;
+    font-weight: 600;
+    font-size: 1.1em;
+    margin-top: 0.25em;
+    margin-bottom: 0.5em;
+    font-family: 'Raleway', sans-serif;
+}
+
+.project-link-container {
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    margin-bottom: 0.25em;
+    justify-content: space-between;
+}
+
+.project-link-container a {
+    font-weight: 400;
+    font-size: 1.1em;
+    text-align: justify;
+    line-height: 1.25em;
+    text-decoration: none;
+    color: rgb(0, 154, 218);
+    font-family: 'Raleway', sans-serif;
+}
+
+.project-link-container a:hover,
+.project-link-container a:active {
+    text-decoration: underline;
+}
