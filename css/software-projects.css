@@ -72,7 +72,7 @@
     }
 
     .project-image {
-        max-width: calc(100vw - 2em);
+        max-width: calc(100vw - 4em);
     }
 
     .project-link-container {
