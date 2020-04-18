@@ -49,6 +49,11 @@ div ul li a:hover, div ul li a:active {
     padding-bottom: 1em;
 }
 
+li {
+    /* Better readability on mobile */
+    text-align: left !important;
+}
+
 @media screen and (max-width: 800px) {
     #website-content > div {
         margin-left: 1em;
