@@ -59,7 +59,7 @@
 }
 
 #particles-js .particles-js-canvas-el {
-    max-height: 55vh;
+    max-height: 50vh;
 }
 
 @media screen and (max-width: 500px) {
