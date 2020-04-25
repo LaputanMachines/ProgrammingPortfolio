@@ -14,7 +14,7 @@
     display: flex;
     padding: 1.25em;
     list-style: none;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 #navbar ul li a {
