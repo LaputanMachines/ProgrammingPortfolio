@@ -21,7 +21,7 @@
     Pushes entire div upwards. More pleasant
     to read when div is not perfectly centered.
     */
-    margin-bottom: 7em;
+    margin-bottom: 5em;
 }
 
 #welcome-message h1 {
