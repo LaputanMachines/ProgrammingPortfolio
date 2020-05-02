@@ -88,8 +88,7 @@
     }
 
     #particles-js {
-        display: none;
-        visibility: hidden;
+        height: 50vh;
     }
 
     #welcome-message-container {
