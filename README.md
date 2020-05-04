@@ -5,7 +5,7 @@ The site itself is a lot prettier, so I'd recommend navigating to [code.bassi.li
 
 ## Personal Summary
 
-Howdy! My name is Michael, and I'm a remote Python developer. I've built software ranging from small benchmarking tools to large-scale automation pipelines.
+Howdy! My name is Michael, and I'm a software developer. I've built software ranging from small benchmarking tools to large-scale automation pipelines.
 
 - Over five years of Python experience, both personal and professional
 - Dedicated, self-motivated programmer who routinely tries to exceed expectations
