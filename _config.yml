@@ -13,7 +13,7 @@ destination: _site
 highlighter: rouge
 linenos:     true
 
-employment_status: "Actively Seeking"
+employment_status: "Not Seeking"
 
 plugins:
   - jekyll-feed
